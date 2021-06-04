@@ -159,15 +159,16 @@ body{
   grid-area: 5 / 3 / 6 / 5; 
   background: url(images/back-azul.svg); 
   background:rgb(255, 255, 255);
+  width: 80%;
   max-width: 100%;
   height: auto;      
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 100%; 
-  display: grid;
+    display: grid; 
   align-items: center;
-  padding: 5px;
+  padding-left: 10%;
 }
 
 /* Demais estilhos */
@@ -208,6 +209,11 @@ img{
   align-items: center;
   justify-content: center;
 
+}
+
+#sizeBottom{
+
+  width: 20px;
 }
 
 .botaoWhatsapp2:hover {
