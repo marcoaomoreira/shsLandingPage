@@ -24,7 +24,7 @@ body{
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:  fit-content(100%) fit-content(100%) 1fr fit-content(100%) 0.1fr;
+    grid-template-rows:  fit-content(100%) fit-content(100%) 1fr fit-content(100%) 0.1fr 0.1fr;
     gap: 0px 0px;
 }
 
@@ -141,11 +141,11 @@ body{
     background:rgb(255,255,255);
  }
 
-.email { 
+ .logo-footer { 
   grid-area: 5 / 1 / 6 / 3; 
   background: url(images/back-azul.svg); 
   background:rgb(255, 255, 255);
-  width: 300px;
+  width: 50%;
   height: auto;      
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -155,8 +155,39 @@ body{
   align-items: center;
   padding: 5px;
 }
-.site { 
-  grid-area: 5 / 3 / 6 / 5; 
+.infos1{ 
+  grid-area: 5 / 3 / 6 / 4; 
+  background: url(images/back-azul.svg); 
+  background:rgb(255, 255, 255);
+  width: 80%;
+  max-width: 100%;
+  height: auto;      
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%; 
+    display: grid; 
+  align-items: center;
+  /* padding-left: 10%; */
+}
+
+.infos3{ 
+  grid-area: 5 / 4 / 6 / 5; 
+  background: url(images/back-azul.svg); 
+  background:rgb(255, 255, 255);
+  width: 80%;
+  max-width: 100%;
+  height: auto;      
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 100%; 
+    display: grid; 
+  align-items: center;
+  padding-left: 3%;
+}
+.infos2{ 
+  grid-area: 6 / 3 / 6  / 5; 
   background: url(images/back-azul.svg); 
   background:rgb(255, 255, 255);
   width: 80%;
@@ -170,6 +201,8 @@ body{
   align-items: center;
   padding-left: 10%;
 }
+
+
 
 /* Demais estilhos */
 p{
@@ -213,7 +246,7 @@ img{
 
 #sizeBottom{
 
-  width: 20px;
+  width: 200px;
 }
 
 .botaoWhatsapp2:hover {
