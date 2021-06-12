@@ -142,7 +142,7 @@ body{
  }
 
  .logo-footer { 
-  grid-area: 5 / 1 / 6 / 3; 
+  grid-area: 5 / 1 / 7 / 3; 
   background: url(images/back-azul.svg); 
   background:rgb(255, 255, 255);
   width: 50%;
@@ -190,7 +190,7 @@ body{
   grid-area: 6 / 3 / 6  / 5; 
   background: url(images/back-azul.svg); 
   background:rgb(255, 255, 255);
-  width: 80%;
+  width: 60%;
   max-width: 100%;
   height: auto;      
   -webkit-background-size: cover;
@@ -199,7 +199,7 @@ body{
   background-size: 100%; 
     display: grid; 
   align-items: center;
-  padding-left: 10%;
+  padding-left: 20%;
 }
 
 
